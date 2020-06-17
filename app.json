@@ -1,6 +1,38 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/page1/page1",
+    "pages/page2/page2"
   ],
-  "sitemapLocation": "sitemap21.json"
+  "window": {
+    "navigationBarBackgroundColor": "#DC143C",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "台山同学网",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/11.png"
+      },
+      {
+        "pagePath": "pages/page1/page1",
+        "text": "第一页",
+        "iconPath": "images/2.png",
+        "selectedIconPath": "images/22.png"
+      },
+      {
+        "pagePath": "pages/page2/page2",
+        "text": "第二页",
+        "iconPath": "images/3.png",
+        "selectedIconPath": "images/33.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap80.json"
 }

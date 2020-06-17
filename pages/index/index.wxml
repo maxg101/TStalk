@@ -1,1 +1,5 @@
-<view>知识点2</view>
+<view>{{name}}</view>
+<view wx:for="{{friends}}">{{item.name}}</view>
+<view>{{counter}}</view>
+<button  bindtap="add">+</button>
+<button  bindtap="del">-</button>
